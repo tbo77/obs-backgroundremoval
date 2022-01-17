@@ -14,8 +14,6 @@ sudo apt-get install -y \
 	qtbase5-dev \
 	libopencv-dev
 
-#sudo apt install -y libopencv-dev language-pack-en wget git build-essential cmake
-
 # Dirty hack
 sudo wget -O /usr/include/obs/obs-frontend-api.h https://raw.githubusercontent.com/obsproject/obs-studio/25.0.0/UI/obs-frontend-api/obs-frontend-api.h
 

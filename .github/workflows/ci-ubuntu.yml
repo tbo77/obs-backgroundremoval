@@ -42,5 +42,5 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: ubuntu-deb
-          path: $GITHUB_WORKSPACE/package/*.deb
+          path: $GITHUB_WORKSPACE/package
           retention-days: 5

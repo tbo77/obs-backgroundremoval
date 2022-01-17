@@ -26,16 +26,13 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Install dependencies
-        run: $GITHUB_WORKSPACE/ci/linux/install-dependencies-ubuntu.sh
+        run: ci/linux/install-dependencies-ubuntu.sh
 
       - name: Build Plugin
-        run: $GITHUB_WORKSPACE/ci/linux/build-ubuntu.sh
+        run: ci/linux/build-ubuntu.sh
         
       - name: Package Plugin
-        run: |
-          $GITHUB_WORKSPACE/ci/linux/package-ubuntu.sh
-          pwd
-          ls -la
+        run: ci/linux/package-ubuntu.sh
 
       - name: 'Upload Artifact'
         uses: actions/upload-artifact@v2

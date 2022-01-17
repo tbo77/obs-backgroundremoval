@@ -29,7 +29,12 @@ jobs:
         run: $GITHUB_WORKSPACE/ci/linux/install-dependencies-ubuntu.sh
 
       - name: Build Plugin
-        run: $GITHUB_WORKSPACE/ci/linux/build-ubuntu.sh
+        run: |
+          cd $GITHUB_WORKSPACE
+          pwd
+          ls -la
+          ./ci/linux/build-ubuntu.sh
+        
       - name: Package Plugin
         run: $GITHUB_WORKSPACE/ci/linux/package-ubuntu.sh
 

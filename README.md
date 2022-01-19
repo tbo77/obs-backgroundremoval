@@ -12,6 +12,9 @@ wget https://github.com/microsoft/onnxruntime/releases/download/v1.7.0/onnxrunti
 sudo tar xzvf onnxruntime-linux-x64-1.7.0.tgz --strip-components=1 -C /usr/local/ --wildcards "*/lib*/"
 ```
 
+### How to use
+https://medium.com/@mhatrep/remove-video-background-without-a-green-screen-in-obs-studio-f73735b40c65
+
 # Original README.md
 
 - [Introduction](#introduction)

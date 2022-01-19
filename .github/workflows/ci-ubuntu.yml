@@ -40,5 +40,5 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: ubuntu-deb
-          path: package
+          path: package/*.deb
           retention-days: 5

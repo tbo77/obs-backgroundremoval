@@ -1,4 +1,18 @@
-# OBS Plugin: Background Removal
+# OBS Plugin: Background Removal - Ubuntu 20.04 deb package
+
+## About this fork
+
+Since the original GitHub had no deb package for Ubuntu 20.04, I decided to add a pipeline for building it. This is just for my own use, and may not be usefull for someone else. I changed as little as I could to get it working, so the information about the original author etc. is left intact.
+
+### How to install
+Download the release, unzip the deb.
+```
+sudo dpkg -i <package.deb>
+wget https://github.com/microsoft/onnxruntime/releases/download/v1.7.0/onnxruntime-linux-x64-1.7.0.tgz
+sudo tar xzvf onnxruntime-linux-x64-1.7.0.tgz --strip-components=1 -C /usr/local/ --wildcards "*/lib*/"
+```
+
+# Original README.md
 
 - [Introduction](#introduction)
 - [Building](#building)

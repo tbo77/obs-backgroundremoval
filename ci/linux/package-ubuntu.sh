@@ -9,11 +9,7 @@ export GIT_HASH=$(git rev-parse --short HEAD)
 export PKG_VERSION="$VERSION"
 
 echo xxx
-echo $LINUX_MAINTAINER_EMAIL
-
-if [[ "$BRANCH_FULL_NAME" =~ "^refs/tags/" ]]; then
-	export PKG_VERSION="$BRANCH_SHORT_NAME"
-fi
+echo $VERSION
 
 cd ./build
 

@@ -19,5 +19,5 @@ sudo wget -O /usr/include/obs/obs-frontend-api.h https://raw.githubusercontent.c
 
 sudo ldconfig
 
-sudo wget https://github.com/microsoft/onnxruntime/releases/download/v1.7.0/onnxruntime-linux-x64-1.10.0.tgz
+sudo wget https://github.com/microsoft/onnxruntime/releases/download/v1.10.0/onnxruntime-linux-x64-1.10.0.tgz
 sudo tar xzvf onnxruntime-linux-x64-1.10.0.tgz --strip-components=1 -C /usr/local/ --wildcards "*/include/*" "*/lib*/"

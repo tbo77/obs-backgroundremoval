@@ -254,9 +254,13 @@ if(UNIX AND NOT APPLE)
 
 	file(GLOB locale_files data/locale/*.ini)
 	file(GLOB onnxmodels data/*.onnx)
+	file(GLOB libonnxruntime libonnxruntime/*)
 
 	install(TARGETS ${CMAKE_PROJECT_NAME}
 		LIBRARY DESTINATION "${CMAKE_INSTALL_FULL_LIBDIR}/obs-plugins")
+
+	install(FILES ${libonnxruntime}
+		DESTINATION "${CMAKE_INSTALL_FULL_LIBDIR}")
 
 	install(FILES ${locale_files}
 		DESTINATION "${CMAKE_INSTALL_FULL_DATAROOTDIR}/obs/obs-plugins/${CMAKE_PROJECT_NAME}/locale")

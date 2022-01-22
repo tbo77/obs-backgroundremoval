@@ -6,7 +6,7 @@ Since the original GitHub had no deb package for Ubuntu 20.04, I decided to add 
 I also packaged onnxruntime within the same file just to get it a little bit claner.
 
 ### How to install
-Download the release, unzip the deb.
+Download the release deb, then
 ```
 sudo dpkg -i <package.deb>
 ```

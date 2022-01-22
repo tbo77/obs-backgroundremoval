@@ -16,7 +16,7 @@ set(PLUGIN_AUTHOR "Roy Shilkrot")
 set(MACOS_BUNDLEID "com.example.obs-backgroundremoval")
 
 # Replace `me@contoso.com` with the maintainer email address you want to put in Linux packages
-set(LINUX_MAINTAINER_EMAIL "roy.shil@gmail.com")
+set(LINUX_MAINTAINER_EMAIL "tbo77@github.com")
 
 option(WITH_CUDA "Build with CUDA support." OFF)
 if(WITH_CUDA)

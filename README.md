@@ -2,8 +2,7 @@
 
 ## About this fork
 
-Since the original GitHub had no deb package for Ubuntu 20.04, I decided to add a pipeline for building it. This is just for my own use, and may not be useful for someone else. 
-I also packaged onnxruntime within the same file just to get it a little bit claner.
+Since the original GitHub had no deb package for Ubuntu 20.04, I decided to add a pipeline for building it. This is just for my own use, and may not be useful for someone else. I also packaged onnxruntime within the same file just to make installation a little bit nicer.
 
 ### How to install
 Download the release deb, then
